@@ -8,35 +8,12 @@ namespace bubblre_sort
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void main(string[] args)
         {
-            Console.WriteLine("how many numbers are you going to input?");
-            int lot = Convert.ToInt32(Console.ReadLine());
-
-            int hold;
-            int[] to = new int[lot];
-
-            for (int i = 0; i < lot; i++)
-            {
-                hold = Convert.ToInt32(Console.ReadLine());
-
-                to[i] = hold;
-            }
-                
-            int[] d = bubbleu(to);
-
-            Console.WriteLine();
-
-            foreach (int num in d)
-            {
-                Console.WriteLine(num);
-            }
-
-            Console.ReadKey();
-
+            //this code is not supposed to be run directly, it is supposed to be implemted in another programme
         }
 
-        public static int[] bubbled(int[] old)
+        public static int[] bubbleu(int[] old)
         {
             int[] newl = old;
             bool done = false;
@@ -67,7 +44,7 @@ namespace bubblre_sort
             return newl;
         }
 
-        public static int[] bubbleu(int[] old)
+        public static int[] bubbled(int[] old)
         {
             int[] newl = old;
             bool done = false;
