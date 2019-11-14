@@ -10,7 +10,7 @@ namespace bubblre_sort
     {
         public static void main(string[] args)
         {
-            Char a = Console.ReadKey();
+            Console.ReadKey();
         }
 
         public static int[] bubbleu(int[] old)
