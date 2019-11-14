@@ -8,7 +8,7 @@ namespace bubblre_sort
 {
     class Program
     {
-        public static void main(string[] args)
+        static void Main(string[] args)
         {
             Console.Write("bubble sort for c#");
             Console.ReadKey();
