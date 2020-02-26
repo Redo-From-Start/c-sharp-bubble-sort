@@ -10,7 +10,7 @@ namespace bubblre_sort
     {
         static void Main(string[] args)
         {
-            Console.Write("bubble sort for c#");
+            Console.Write("bubble sort for c#, V 1.2");
             Console.ReadKey();
         }
 
